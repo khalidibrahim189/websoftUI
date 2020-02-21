@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/77bf11a666.js"></script>
 
+
+
     <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora|Poppins|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap" rel="stylesheet">
     <title>Web soft UI</title>
@@ -19,7 +22,7 @@
     
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light top-fixed">
                 <a class="navbar-brand" href="#">Soft UI</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -28,23 +31,23 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link scroll" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                      <a class="nav-link scroll" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link scroll" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link scroll" href="#contact">Contact us</a>
                       </li>
                 </div>
               </nav>
         </div>
     </header>
 
-    <section class="banner">
+    <section class="banner" id="home">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -184,12 +187,41 @@
       </div>
     </section>
 
+    <section class="contac-us" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 my-5 py-5">
+            <h5 class="text-center">Contact Us</h5>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 text">
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+ 
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.js"
+    integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+    crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
   </body>
 </html>
