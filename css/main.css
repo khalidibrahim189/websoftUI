@@ -75,11 +75,17 @@ header{
     background-color: #000;
 }
 
+p.lead{
+    text-align: justify;
+    
+}
+
 .btn-color{
     font-weight: 800;
     background-color: crimson;
     color: #fff;
     border-radius: 50px;
+    width: 200px;
 }
 
 @media (max-width: 575.98px) { 
